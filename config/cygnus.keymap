@@ -339,10 +339,10 @@
         nav_layer {
             display-name = "NAV";
             bindings = <
-&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp EQUAL  &trans  &trans  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &trans    &kp UNDER  &kp PLUS   &trans  &trans  &trans  &trans
+&kp GRAVE  &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans            &trans           &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &trans     &trans     &trans            &trans           &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp EQUAL  &kp LEFT_BRACKET  &kp RBKT         &trans  &trans
+&trans     &trans  &trans  &trans  &trans  &trans    &kp UNDER  &kp PLUS   &kp LEFT_BRACE    &kp RIGHT_BRACE  &trans  &trans
                            &trans  &trans  &trans    &trans     &trans     &trans
             >;
         };
